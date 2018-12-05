@@ -3,6 +3,8 @@
     <blacklists>
       <blacklist language="Java">
         <added pattern="io.restassured.response.ValidatableResponseOptions.body(s,matcher,objects)" />
+        <added pattern="org.hamcrest.Matchers.equalTo(operand)" />
+        <added pattern="io.restassured.specification.RequestSpecification.param(s,objects)" />
       </blacklist>
     </blacklists>
   </component>
