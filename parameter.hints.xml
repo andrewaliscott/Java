@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="io.restassured.response.ValidatableResponseOptions.body(s,matcher,objects)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
